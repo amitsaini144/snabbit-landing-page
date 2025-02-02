@@ -24,7 +24,7 @@ export default function FaqItem({ question, answer }: { question: string; answer
                         {isOpen ? (
                             <ChevronUp className="w-6 h-6 text-black" />
                         ) : (
-                            <ChevronDown className="w-6 h-6 text-black" />
+                            <ChevronDown className="w-6 h-6 text-black " />
                         )}
                     </div>
                 </div>
