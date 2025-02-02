@@ -12,7 +12,7 @@ export default function FaqItem({ question, answer }: { question: string; answer
     return (
         <motion.div
             layout="position"
-            className="flex flex-col py-6 cursor-pointer select-none overflow-hidden"
+            className="flex flex-col py-6 cursor-pointer select-none overflow-hidden "
             onClick={toggleOpen}
         >
             <motion.div layout className="flex justify-between border-b">
