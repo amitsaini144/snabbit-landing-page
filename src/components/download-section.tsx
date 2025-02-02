@@ -5,7 +5,7 @@ import appStore from "../../public/images/app-store.svg"
 
 export default function DownloadSection() {
     return (
-        <div className="w-full px-6 md:px-10 pt-16 bg-white">
+        <div className="w-full px-6 md:px-10 pt-16 bg-white max-w-[1423px] mx-auto">
             <div className="flex flex-col lg:flex-row justify-between lg:px-24">
                 <div className="flex flex-col text-black gap-y-4 md:gap-y-6">
                     <h2 className="text-[42px] lg:text-[48px] font-semibold tracking-tighter leading-tight">Download Snabbit now!</h2>

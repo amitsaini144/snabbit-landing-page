@@ -1,9 +1,9 @@
-import { Faq } from "@/data/FaqData";
-import FaqItem from "./FaqItem";
+import { Faq } from "@/data/faq-data";
+import FaqItem from "./faq-item";
 
 export default function FaqSection() {
     return (
-        <div className="w-full px-6 md:px-10 pt-12 pb-16 bg-[#F5F8FD]">
+        <div className="w-full px-6 md:px-10 pt-12 pb-16 bg-[#F5F8FD] max-w-[1423px] mx-auto">
             <div className="flex lg:px-24 gap-12 justify-center">
 
                 <div className="flex flex-col justify-center items-center w-full gap-4">

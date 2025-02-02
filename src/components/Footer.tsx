@@ -1,4 +1,4 @@
-import snabbit from "../../public/images/Snabbit logo PINK 1.svg";
+import snabbit from "../../public/images/Snabbit-logo.svg";
 import x from "../../public/images/x.svg";
 import facebook from "../../public/images/facebook.svg";
 import instagram from "../../public/images/instagram.svg";
@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export default function ContactSection() {
     return (
-        <div className="flex flex-col w-full px-6 md:px-10 pt-16 pb-36 gap-16">
+        <div className="flex flex-col w-full px-6 md:px-10 pt-16 pb-36 gap-16 max-w-[1423px] mx-auto">
             <div className="flex flex-col md:flex-row lg:px-24 justify-between">
 
                 <div className="flex flex-col justify-center md:w-[40%] gap-8">

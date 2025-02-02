@@ -1,7 +1,7 @@
 "use client";
 
-import { services } from "@/data/ServiceData";
-import ServiceCard from "./ServiceCard";
+import { services } from "@/data/service-data";
+import ServiceCard from "./service-card";
 import { MoveLeft, MoveRight } from "lucide-react";
 import { motion } from "framer-motion";
 import { useRef } from "react";
@@ -20,7 +20,7 @@ export default function Services() {
     };
 
     return (
-        <div className="w-full px-2 lg:px-10 pt-16 pb-24 bg-gradient-to-t from-[#F4F7FC] via-[#F4F7FC] to-white">
+        <div className="w-full px-2 lg:px-10 pt-16 pb-24 bg-gradient-to-t from-[#F4F7FC] via-[#F4F7FC] to-white max-w-[1423px] mx-auto">
             <div className="flex flex-col gap-10 justify-center">
                 <div className="flex md:flex-row flex-col text-black justify-center items-center gap-y-6">
                     <h2 className="text-[42px] lg:text-[48px] font-semibold">Our services</h2>

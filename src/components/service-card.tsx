@@ -1,7 +1,7 @@
 
 import Image from "next/image";
 import { service } from "@/types/Service";
-import snabbit from "../../public/images/Snabbit logo PINK 1.svg";
+import snabbit from "../../public/images/Snabbit-logo.svg";
 
 export default function ServiceCard({ label, title, description, image }: service) {
     return (
