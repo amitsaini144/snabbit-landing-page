@@ -1,5 +1,5 @@
-import { Marquee } from "./ui/marquee";
-import ReviewCard from "./Marquee";
+import { Marquee } from "@/components/ui/marquee";
+import Card from "@/components/MarqueeCard";
 import { marqueeData } from "@/data/MarqueeData";
 
 const secondRow = marqueeData.reverse(); 
@@ -31,17 +31,17 @@ export default function HeroSection() {
                 <div className="relative flex h-[400px] flex-row items-center justify-end overflow-hidden lg:w-[50%]">
                     <Marquee pauseOnHover vertical className="[--duration:30s]">
                         {marqueeData.map((service) => (
-                            <ReviewCard key={service.id} {...service} />
+                            <Card key={service.id} {...service} />
                         ))}
                     </Marquee>
                     <Marquee reverse pauseOnHover vertical className="[--duration:34s]">
                         {secondRow.map((service) => (
-                            <ReviewCard key={service.id} {...service} />
+                            <Card key={service.id} {...service} />
                         ))}
                     </Marquee>
                     <Marquee pauseOnHover vertical className="[--duration:30s]">
                         {shuffledData.map((service) => (
-                            <ReviewCard key={service.id} {...service} />
+                            <Card key={service.id} {...service} />
                         ))}
                     </Marquee>
                     
