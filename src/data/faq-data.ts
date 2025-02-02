@@ -1,4 +1,4 @@
-import { faq } from "@/types/Faq";
+import { faq } from "@/types/faq";
 
 export const Faq: faq[] = [
     {
