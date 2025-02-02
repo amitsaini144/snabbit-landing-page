@@ -1,5 +1,5 @@
-import { Faq } from "@/data/faq-data";
-import FaqItem from "./faq-item";
+import { Faq } from "@/data/FaqData";
+import FaqItem from "./FaqItem";
 
 export default function FaqSection() {
     return (

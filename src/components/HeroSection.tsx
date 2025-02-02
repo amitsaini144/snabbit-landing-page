@@ -1,6 +1,6 @@
 import { Marquee } from "./ui/marquee";
-import ReviewCard from "./marquee";
-import { marqueeData } from "@/data/marquee-data";
+import ReviewCard from "./Marquee";
+import { marqueeData } from "@/data/MarqueeData";
 
 const secondRow = marqueeData.reverse(); 
 const shuffledData = [...marqueeData].sort(() => Math.random() - 0.5);

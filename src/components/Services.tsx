@@ -1,7 +1,7 @@
 "use client";
 
-import { services } from "@/data/service-data";
-import ServiceCard from "./service-card";
+import { services } from "@/data/ServiceData";
+import ServiceCard from "./ServiceCard";
 import { MoveLeft, MoveRight } from "lucide-react";
 import { motion } from "framer-motion";
 import { useRef } from "react";

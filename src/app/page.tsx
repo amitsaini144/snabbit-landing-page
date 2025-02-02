@@ -1,9 +1,9 @@
-import HeroSection from "@/components/hero-section";
-import Services from "@/components/services";
-import DownloadSection from "@/components/download-section";
-import RecordSection from "@/components/record-section";
-import ContactSection from "@/components/contact-section";
-import FaqSection from "@/components/faq-section";
+import HeroSection from "@/components/HeroSection";
+import Services from "@/components/Services";
+import DownloadSection from "@/components/DownloadSection";
+import RecordSection from "@/components/RecordSection";
+import ContactSection from "@/components/ContactSection";
+import FaqSection from "@/components/FaqSection";
 
 export default function Home() {
   return (
