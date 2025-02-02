@@ -1,4 +1,4 @@
-import { marquee } from "@/types/Marquee";
+import { marqueeCard } from "@/types/Marquee";
 import mopping from "../../public/images/mopping.svg";
 import brooming from "../../public/images/brooming.svg";
 import machine from "../../public/images/clothes-machine-wash.svg";
@@ -7,7 +7,7 @@ import kitchen from "../../public/images/kitchen-cleaning.svg";
 import bathroom from "../../public/images/bathroom-cleaning.svg";
 import dusting from "../../public/images/dusting.svg";
 
-export const marqueeData: marquee[] = [
+export const marqueeData: marqueeCard[] = [
     {
         id: 1,
         title: "MOPPING",
