@@ -1,4 +1,4 @@
-import { marquee } from "@/types/marquee";
+import { marquee } from "@/types/Marquee";
 import mopping from "../../public/images/mopping.svg";
 import brooming from "../../public/images/brooming.svg";
 import machine from "../../public/images/clothes-machine-wash.svg";

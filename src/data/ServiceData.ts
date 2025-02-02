@@ -1,4 +1,4 @@
-import { service } from "@/types/service";
+import { service } from "@/types/Service";
 import rocket from "../../public/images/NOWW Icon 1.svg";
 import clock from "../../public/images/NOWW Icon 2.svg";
 import calender from "../../public/images/NOWW Icon 3.svg";
