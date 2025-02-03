@@ -23,12 +23,12 @@ export default function HeroSection() {
 
                     <div className="flex gap-3 items-center">
                         <input type="text" placeholder="Enter your moblie number" className="border rounded-lg py-3 px-6 w-[70%] bg-[#F7F7F7] focus:outline-none" />
-                        <button className="rounded-lg bg-[#F70F79] w-[30%] py-3 px-4 text-white">
+                        <button className="text-sm md:text-base rounded-lg bg-[#F70F79] w-[30%] py-3.5 md:py-3 px-4 text-white">
                             Book now
                         </button>
                     </div>
                 </div>
-                <div className="relative flex h-[400px] flex-row items-center justify-end overflow-hidden lg:w-[50%]">
+                <div className="relative flex h-[400px] flex-row items-center justify-end overflow-hidden lg:w-[50%] w-full">
                     <Marquee pauseOnHover vertical className="[--duration:30s]">
                         {marqueeData.map((service) => (
                             <Card key={service.id} {...service} />

@@ -11,7 +11,7 @@ export default function Services() {
 
     const scroll = (direction: string) => {
         if (carouselRef.current) {
-            const scrollAmount = 460; 
+            const scrollAmount = 350; 
             carouselRef.current.scrollBy({
                 left: direction === "left" ? -scrollAmount : scrollAmount,
                 behavior: "smooth",
@@ -35,9 +35,9 @@ export default function Services() {
 
                     <motion.div
                         ref={carouselRef}
-                        className="flex gap-6 overflow-x-auto justify-around scrollbar-hide relative pl-16 lg:pl-24 pr-24">
+                        className="flex gap-6 overflow-x-auto justify-around scrollbar-hide relative pl-6 sm:pl-16 lg:pl-24 pr-6 sm:pr-24">
                         {services.map((service) => (
-                            <div className="flex-shrink-0" key={service.id}>
+                            <div className="w-full" key={service.id}>
                                 <ServiceCard {...service} />
                             </div>
                         ))}

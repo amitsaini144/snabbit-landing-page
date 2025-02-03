@@ -16,9 +16,9 @@ export default function ServiceCard({ label, title, description, image }: servic
             </div>
             <div className="flex flex-col gap-6 w-[364px]">
                 <p className="text-black text-[36px] lg:text-[40px] font-semibold leading-tight w-[80%] tracking-tight">{title}</p>
-                <p className="text-[#5E697F] text-[18px] lg:text-[20px] leading-tight">{description}</p>
+                <p className="text-[#5E697F] text-[16px] lg:text-[20px] leading-tight">{description}</p>
             </div>
-            <div className="flex justify-center items-center gap-4 lg:w-[364px] lg:h-[280px] bg-white rounded-2xl">
+            <div className="flex justify-center items-center gap-4lg:w-[364px] lg:h-[280px] bg-white rounded-2xl">
                 <div className="rounded-3xl">
                     <Image
                         src={image}
