@@ -13,11 +13,11 @@ export default function Navbar() {
                         <Image src={snabbit} alt="snabbit" quality={100} />
                     </div>
                     <div className="items-center gap-2 md:gap-6 flex">
-                        <button className="items-center text-xs text-white bg-black px-2.5 md:px-6 py-2 md:py-3 rounded-full flex gap-1.5">
-                            <Image src={apple} alt="apple" quality={100} />
+                        <button className="items-center text-xs md:text-sm text-white bg-black px-2.5 md:px-6 py-2 md:py-3 rounded-full flex gap-1.5">
+                            <Image src={apple} alt="apple" quality={100} className="w-4 h-4 md:w-5 md:h-5" />
                             App Store</button>
-                        <button className="items-center text-xs text-white bg-black px-2.5 md:px-6 py-2 md:py-3 rounded-full flex gap-1.5">
-                            <Image src={playstore} alt="playstore" quality={100} />
+                        <button className="items-center text-xs md:text-sm text-white bg-black px-2.5 md:px-6 py-2 md:py-3 rounded-full flex gap-1.5">
+                            <Image src={playstore} alt="playstore" quality={100} className="w-4 h-4 md:w-5 md:h-5"/>
                             Play Store</button>
                     </div>
                 </div>

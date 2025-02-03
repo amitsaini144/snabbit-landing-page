@@ -8,7 +8,7 @@ export default function RecordSection() {
                     <h2 className="text-[38px] lg:text-[42px] font-medium text-white text-center leading-tight">We are on a mission to revolutionize<br className="hidden lg:block" /> the way in which households function</h2>
                 </div>
 
-                <div className="flex flex-col md:flex-row gap-8 md:justify-around">
+                <div className="flex flex-col md:flex-row gap-y-8 md:justify-around">
                     <div className="flex flex-col items-center">
                         <h2 className="text-[70px] lg:text-[80px] font-bold tracking-tighter leading-tight text-white">2.5 k+</h2>
                         <p className="text-xl lg:text-2xl text-white/60">Active Users</p>
